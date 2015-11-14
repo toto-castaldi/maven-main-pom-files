@@ -8,7 +8,7 @@
         <version>1.0</version>
     </parent>
 
-    <groupId>com.github.toto-castaldi.web</groupId>
+    <groupId>com.github.toto-castaldi</groupId>
     <artifactId>java8-web</artifactId>
     <packaging>pom</packaging>
     <name>${project.groupId}:${project.artifactId}</name>
