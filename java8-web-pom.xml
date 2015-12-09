@@ -5,14 +5,14 @@
     <parent>
         <groupId>com.github.toto-castaldi</groupId>
         <artifactId>java8</artifactId>
-        <version>1.0</version>
+        <version>1.1-SNAPSHOT</version>
     </parent>
 
     <groupId>com.github.toto-castaldi</groupId>
     <artifactId>java8-web</artifactId>
     <packaging>pom</packaging>
     <name>${project.groupId}:${project.artifactId}</name>
-    <version>1.0</version>
+    <version>1.1-SNAPSHOT</version>
 
 
     <description>Main pom for webapp on java 8 module</description>
@@ -25,7 +25,7 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
-        
+
     <properties>
         <servlet.specification.version>3.0.1</servlet.specification.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
