@@ -7,13 +7,14 @@ maven-main-pom-files
     mvn clean install -f java8-web-pom.xml
     mvn clean deploy -P release-sign-artifacts -f java8-pom.xml 
 
+
 # use 
 
 ```
 <dependency>
     <groupId>com.github.toto-castaldi</groupId>
     <artifactId>java8</artifactId>
-    <version>1.0</version>
+    <version>[VERSION]</version>
 </dependency>
 ```
 
@@ -21,7 +22,7 @@ maven-main-pom-files
 <dependency>
     <groupId>com.github.toto-castaldi</groupId>
     <artifactId>java8-web</artifactId>
-    <version>1.0</version>
+    <version>[VERSION]</version>
 </dependency>
 ```
 
